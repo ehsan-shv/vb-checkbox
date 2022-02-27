@@ -1,15 +1,20 @@
 <template>
-  <Checkbox />
+  <Checkbox :modelValue="checked" label="check1" />
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue';
+import { defineComponent, ref } from 'vue';
 import Checkbox from './components/Checkbox.vue';
 
 export default defineComponent({
   name: 'App',
   components: {
     Checkbox,
+  },
+  setup() {
+    const checked = ref(true);
+
+    return { checked };
   },
 });
 </script>
