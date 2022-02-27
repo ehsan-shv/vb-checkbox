@@ -1,5 +1,6 @@
 <template>
-  <Checkbox :modelValue="checked" label="check1" />
+  <div><Checkbox :modelValue="checked1" label="check1" /></div>
+  <div><Checkbox :modelValue="checked2" label="check2" /></div>
 </template>
 
 <script lang="ts">
@@ -12,9 +13,10 @@ export default defineComponent({
     Checkbox,
   },
   setup() {
-    const checked = ref(false);
+    const checked1 = ref(false);
+    const checked2 = ref(true);
 
-    return { checked };
+    return { checked2, checked1 };
   },
 });
 </script>
@@ -27,5 +29,9 @@ export default defineComponent({
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+
+  div {
+    margin: 20px;
+  }
 }
 </style>

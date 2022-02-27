@@ -11,7 +11,7 @@ describe('label text', () => {
 });
 
 describe('update:modelValue emitter', () => {
-  it('change state and emit state to on click', () => {
+  it('change state and emit true value on click', () => {
     const wrapper = mount(Checkbox, {
       props: { modelValue: false },
     });
