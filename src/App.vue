@@ -12,7 +12,7 @@ export default defineComponent({
     Checkbox,
   },
   setup() {
-    const checked = ref(true);
+    const checked = ref(false);
 
     return { checked };
   },

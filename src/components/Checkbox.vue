@@ -22,7 +22,7 @@ export default defineComponent({
     },
     rtl: {
       type: Boolean,
-      default: true,
+      default: false,
     },
   },
   setup(props, { emit }) {
