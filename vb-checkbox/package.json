@@ -1,7 +1,20 @@
 {
   "name": "vb-checkbox",
-  "version": "0.0.1",
-  "description": "",
+  "version": "1.0.0",
+  "description": "Vue3 and Nuxt3 customizable checkbox input.",
+  "author": "Ehsan",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ehsan-shv/vb-checkbox.git"
+  },
+  "keywords": [
+    "vue",
+    "nuxt",
+    "vue3",
+    "input",
+    "checkbox",
+    "typescript"
+  ],
   "main": "dist/vb-checkbox.ssr.js",
   "browser": "dist/vb-checkbox.esm.js",
   "module": "dist/vb-checkbox.esm.js",
@@ -9,7 +22,8 @@
   "types": "dist/types/src/entry.esm.d.ts",
   "files": [
     "dist/*",
-    "src/**/*.vue"
+    "src/**/*.vue",
+    "README.md"
   ],
   "sideEffects": false,
   "scripts": {
