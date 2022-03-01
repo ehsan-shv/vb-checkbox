@@ -1,10 +1,10 @@
-# vb-input
+# vb-checkbox
 
 <a href="https://www.npmjs.com/package/vb-checkbox"><img src="https://img.shields.io/npm/v/vb-checkbox.svg" alt="Version"></a>
 
 **Vue 3 checkbox component.**
 
-> Support Vue3, Nuxt3 and type-safe.
+> Support Vue3, Nuxt3 and type-safe. [Demo](https://ehsan-shv.github.io/vb-checkbox/)
 
 ## Installation
 

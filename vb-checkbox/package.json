@@ -1,6 +1,6 @@
 {
   "name": "vb-checkbox",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Vue3 and Nuxt3 customizable checkbox input.",
   "author": "Ehsan",
   "repository": {
